@@ -1,0 +1,24 @@
+2025-10-14 21:13:50 INFO  LogExample:12 - Tarayıcı başlatıldı
+2025-10-14 21:13:50 INFO  LogExample:14 - Email ve password bilgileri girildi
+2025-10-14 21:13:50 WARN  LogExample:15 - Password alanı boş bırakılmaz
+2025-10-14 21:13:50 ERROR LogExample:16 - Login başarısız oldu
+2025-10-14 21:30:08 INFO  TC_3:16 - Web sitesi açıldı
+2025-10-14 21:30:08 INFO  TC_3:24 - Home page opened
+2025-10-14 21:30:08 INFO  TC_3:16 - Web sitesi açıldı
+2025-10-14 21:30:08 INFO  TC_3:24 - Home page opened
+2025-10-14 21:30:10 INFO  TC_3:30 - Login button clicked
+2025-10-14 21:30:10 INFO  TC_3:36 - Login page opened
+2025-10-14 21:30:10 INFO  TC_3:42 - Email and password entered
+2025-10-14 21:30:11 INFO  TC_3:48 - Login button clicked
+2025-10-14 21:30:11 INFO  TC_3:30 - Login button clicked
+2025-10-14 21:30:11 INFO  TC_3:36 - Login page opened
+2025-10-14 21:30:11 INFO  TC_3:42 - Email and password entered
+2025-10-14 21:30:12 INFO  TC_3:55 - Login failed
+2025-10-14 21:30:12 INFO  TC_3:21 - Tarayıcı kapandı
+2025-10-14 21:30:13 INFO  TC_3:48 - Login button clicked
+2025-10-14 21:30:13 INFO  TC_3:55 - Login failed
+2025-10-14 21:30:13 INFO  TC_3:21 - Tarayıcı kapandı
+2025-10-16 20:30:30 INFO  UrunSiralamasi:17 - Web sitesi açıldı
+2025-10-16 20:30:30 INFO  UrunSiralamasi:18 - Home page açıldı
+2025-10-16 20:30:30 INFO  UrunSiralamasi:24 - 5. ürün ismi bulundu
+2025-10-16 20:30:30 INFO  UrunSiralamasi:22 - Tarayıcı kapandı
