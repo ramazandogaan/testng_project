@@ -1,0 +1,31 @@
+pipeline{
+
+// jenkins içerisinde jdk ve maven ı tanımladık. Bu sayede localdeki jdk ve maven a bakmayacak.
+tools{
+    jdk 'JDK21'
+    maven 'Maven-3.9'
+}
+
+// stages sırayla jenkins in çalıştıracağı komutlar
+stages {
+//ilk adımda github tan projeyi çekip , master branche checkout oluyor
+    stage('Checkout')
+        git branch: 'master',
+        url:'https://github.com/ramazandogaan/testng_project.git'
+// 2. stepte testleri çalıştırıyor
+    stage('Run Test')
+       //Mac için
+       // sh 'mvn clean test'
+       //Windows
+        bat 'mvn clean test'
+
+    stage('Generate Allure Report')
+    // allure result un oluşturdugu klasörü tanımladık
+        allure([
+            results: [[path: 'target/allure-results']]
+
+        ])
+
+}
+
+}
